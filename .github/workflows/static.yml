@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: pnpm run build
         env:
-          VITE_APP_TITLE: 'My Article Blog'
+          VITE_APP_TITLE: 'The Apple Times'
           VITE_APP_LOGO: '/website/logo.svg'
           VITE_BASE_PATH: '/website/client/src/pages'
       
