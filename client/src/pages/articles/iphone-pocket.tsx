@@ -1,7 +1,7 @@
 import type { ArticleMetadata } from "@/types/article";
 
 export const metadata: ArticleMetadata = {
-  id: "iPhone-Pocket",
+  id: "iphone-pocket",
   title: "Apple releases new 'iPhone Pocket'",
   description: "Apple has partnered with 'ISSEY MIYAKE' to make a pocket for your iPhone.",
   date: "2025-11-11",
@@ -10,7 +10,7 @@ export const metadata: ArticleMetadata = {
   readTime: 4,
 };
 
-export default function ExampleArticle() {
+export default function iPhonePocket() {
   return (
     <article className="prose prose-lg dark:prose-invert max-w-none">
       <header className="mb-8">
